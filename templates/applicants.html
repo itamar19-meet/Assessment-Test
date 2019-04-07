@@ -4,6 +4,15 @@
     </head>
 
     <body>
-        <!-- Edit here -->
+    	{%for i in applicants%}
+    	this is {{i.Name}}
+    	he is {{i.Age}} years old
+    	his subject is {{i.Subject}}
+    	<br>
+    	<br>
+    	<br>
+    	{%endfor%}
+
+    	<a href="/">home</a>
     </body>
 </html>
